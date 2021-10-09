@@ -90,7 +90,7 @@ function answerClick(){
     console.log("function has a click start");
     console.log (this.id);
     console.log("answer", questions[questionIndex].answer)
-    if(this.id === questions[questionIndex].answer){
+    if(this.textContent === questions[questionIndex].answer){
         feedback.innerHTML = "Perfect Job";
         
     } else{
@@ -98,9 +98,9 @@ function answerClick(){
         time -=15
        
     }
-    feedback.setAttribute("class","");
+    feedback.setAttribute("class","feedback-style");
     setTimeout(function(){
-        feedback.setAttribute("class", "hidden")
+        feedback.setAttribute("class", "hidden feedback-style")
     }, 1000);
     questionIndex++;
     if (questionIndex === questions.length){
