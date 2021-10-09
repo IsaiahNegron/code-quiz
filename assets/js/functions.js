@@ -7,6 +7,7 @@ var saveScoreBtn = document.getElementById("save");
 var initialsEl = document.getElementById("initials");
 var codeQuestions = document.getElementById("code-questions");
 var beginScreen = document.getElementById("begin-screen");
+let endQuizEl = document.getElementById("end-quiz");
 var questionIndex = 0;
 let feedback = document.getElementById("feedback");
 
@@ -84,6 +85,11 @@ function getQuestion(){
 function endQuiz(){
     //to be done
     console.log("end quiz here");
+
+     //show end-quiz screen
+     codeQuestions.classList.add("hidden");
+     endQuizEl.classList.remove("hidden");
+ 
 };
 
 function answerClick(){
