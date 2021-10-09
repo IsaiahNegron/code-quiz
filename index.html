@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div class="scores"><a href="scores.html">Preview Highscores</a>
+    </div>
+
+    <div class="time">Time: <span id="timer">0</span></div>
+
+    <section class="body-container">
+        <section id="begin-screen" class="start">
+            <h1>Coding Quiz</h1>
+            <p>
+                Answer the questions as accurately as possible! This quiz
+                is timed! For every answer you get wrong, your time will deduct ten
+                seconds! Good Luck!
+            </p>
+            <button id="start"> Begin Quiz </button>
+        </section>
+    
+        <section id="code-questions" class="hidden">
+            <h3 id="question-title"> Question Goes Here</h3>
+            <div id="options" class="options"></div>
+        </section>
+
+        <section id="feedback" class="hidden"></section>
+
+        <section id="end-quiz" class="hidden">
+            <h2>Quiz Completed! Great Job!</h2>
+            <p> Your score is <span id="final-score"></span>!</p>
+            <p>
+                Enter Intitals: <input type="text" id="initials" max="3" />
+                <button id="save">Save</button>
+            </p>
+        </section>
+    </section>
+
+    <script src="./assets/js/functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    font-size: 120%;
+}
+
+button {
+    display:inline-block;
+    margin: 8px;
+    font-size: 100%;
+    background-color: blue;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+
+}
+
+button:hover {
+    background-color: red;
+}
+
+.options button{
+    display: block;
+}
+.start{
+    text-align: center;
+}
+
+.body-container {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+  }
+  
+.time {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.scores {
+    position:absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.hidden{
+    display:none;
+}
