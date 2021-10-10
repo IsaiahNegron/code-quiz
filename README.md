@@ -1,27 +1,40 @@
-# 04 Web APIs: Code Quiz
-I built a timed code quiz with multiple-choice questions. This app will run in the browser and have HTML, CSS, and it is powered by JavaScript. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+# Code Quiz 
 
-## User Story
+  ![badge](https://img.shields.io/badge/license-MIT-important)
 
-```
-AS A coding bootcamp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+  ## Description
 
-## Acceptance Criteria
+  I was tasked to create a code quiz that went through a series of questions and created a score. This was using html, css, and javascript.
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
-```
+  ## Table of Contents
+  - [Description](#Description)
+  - [Installation Instructions](#Installation)
+  - [Usage](#Usage)
+  - [Contributions](#Contributions)
+  - [Testing](#Tests)
+  - [License](#License)
+  - [Github](#Github)
+  - [Contact](#Contact)
 
+  ## Installation Instructions
+  Click the deployed link
+
+  ## Usage
+  just for fun, nothing extravagant!
+
+  ## Contributions
+  tutor, KU full-stack bootcamp
+
+  ## Testing
+  n/a
+
+  ## License
+  ![badge](https://img.shields.io/badge/license-MIT-important)
+  <br>
+  Permission to use this application is granted under the MIT License. <https://opensource.org/licenses/MIT>
+
+  ## Github Username
+  Lets Connect: Isaiah Negron
+
+  ## Contact
+  If you have any questions feel free to contact me at <a href='mailto:isaiahanegron@gmail.com'>isaiahanegron@gmail.com</a>
