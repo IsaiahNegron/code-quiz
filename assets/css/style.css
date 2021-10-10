@@ -42,6 +42,12 @@ button:hover {
     left: 15px;
 }
 
+.score {
+    position:absolute;
+    top: 15px;
+    left: 50%;
+}
+
 .hidden{
     display:none;
 }

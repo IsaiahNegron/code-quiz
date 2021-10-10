@@ -5,12 +5,20 @@ var startButton = document.getElementById("start");
 var optionsEl = document.getElementById("options");
 var saveScoreBtn = document.getElementById("save");
 var initialsEl = document.getElementById("initials");
+var finalScoreEl = document.getElementById('final-score');
 var codeQuestions = document.getElementById("code-questions");
 var beginScreen = document.getElementById("begin-screen");
 let endQuizEl = document.getElementById("end-quiz");
 var questionIndex = 0;
 let feedback = document.getElementById("feedback");
 
+// var scoreDataObj = {
+//     initials: initialsEl
+//     score: finalScoreEl
+// };
+
+//saved scores array
+// var scores [];
 
 //array of quiz questions
 var questions = [
@@ -55,7 +63,8 @@ var startQuiz = function(){
         time--;
         timerEl.textContent = time;
         if (time <= 0){
-            submitScore();
+            clearInterval(timerId)
+            endQuiz();
         }
     },1000);
 }
@@ -101,7 +110,7 @@ function answerClick(){
         
     } else{
         feedback.innerHTML = "Sorry, wrong choice!";
-        time -=15
+        time -=20
        
     }
     feedback.setAttribute("class","feedback-style");
@@ -116,4 +125,9 @@ function answerClick(){
         getQuestion();
     }
 };
+
+function showScore() {
+    
+
+}
 startButton.addEventListener("click", startQuiz)
